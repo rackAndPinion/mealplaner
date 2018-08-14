@@ -1,0 +1,4 @@
+####
+BUGS
+####
+1)saves alle of the name array, change to: until null charector

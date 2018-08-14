@@ -1,3 +1,6 @@
+#ifndef FOOD_H
+#define FOOD_H
+
 struct Food
 {
     char name[20];
@@ -8,4 +11,8 @@ struct Food
     struct Food *next;
 };
 
-struct Food addfood(struct Food *food);
+
+void seefood(struct Food *food);
+struct Food *newfood(struct Food *food);
+
+#endif
