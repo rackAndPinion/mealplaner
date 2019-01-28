@@ -2,7 +2,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-int menu();
+
+void food_menu();
+void resepi_menu();
 int main();
 
 #endif

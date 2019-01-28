@@ -1,9 +1,12 @@
 #ifndef LIST_H
 #define LIST_H
 
+
+
 struct List
 {
     void *head;
+    
     struct List *next;
 };
 

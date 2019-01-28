@@ -14,6 +14,7 @@ struct List *addNode(struct List *list, void *head, int dataSize)
 
   return newNode;
 }
+
 struct List *removenode(struct List *list)
 {
     return NULL;
